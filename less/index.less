@@ -59,9 +59,6 @@ html, body {
 }
 // variables
 
-
-
-@grey: lightgrey;
 @padding: 15px;
 
 // Mixins
@@ -132,11 +129,13 @@ html, body {
 	  
 	}
   } 
-  .intro {
+  .box-content {
     display: flex;
 	justify-content:center;
 	 h1 {
 	font-size: 15rem;
+	color:white;
+	text-shadow: 8px 4px limegreen;
 		@media( max-width: 515px ) {
 		  margin-bottom: 20px;
 		}
@@ -155,17 +154,24 @@ html, body {
 	.experience{
 		  border:1px solid black;
 		  border-radius: 5px;
-		  background-color: @grey;
+		  background-color:#DCDCDC;
 		  margin: 20px 2.5%;
     	  width: 100%;
 	  }
 	  .skills{
 		  border:1px solid black;
 		  border-radius: 5px;
-		  background-color: @grey;
+		  background-color:#DCDCDC;
 		  margin: 20px 2.5%;
           width: 100%;
 	  }
+	  .about-me{
+		border:1px solid black;
+		border-radius: 5px;
+		background-color:#DCDCDC;
+		margin: 20px 2.5%;
+		width: 100%;
+	}
   }
   
 	 
@@ -197,3 +203,6 @@ html, body {
   
 	}
   
+	body {
+		background-image: url("https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+	}
