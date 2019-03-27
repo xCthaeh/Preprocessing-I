@@ -134,3 +134,119 @@ html,
 body {
   height: 100%;
 }
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2rem;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+p {
+  line-height: 1.25;
+  margin: 20px 0;
+  font-size: 1.8rem;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+header {
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 515px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header h1 {
+  font-size: 2rem;
+}
+@media (max-width: 515px) {
+  header h1 {
+    margin-bottom: 20px;
+  }
+}
+header nav {
+  margin-left: 62px;
+}
+@media (max-width: 515px) {
+  header nav {
+    margin-left: 0;
+  }
+}
+header nav a {
+  margin-left: 20px;
+  font-size: 1.8rem;
+}
+header nav .first-anchor {
+  margin-left: 0;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 515px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+.main-content .top-content {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 20px 2.5%;
+  width: 45%;
+}
+.main-content .bottom-content {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 20px 2.5%;
+  width: 45%;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+}
+.nav-btn {
+  color: white;
+  background-color: green;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+@media (max-width: 515px) {
+  .nav-btn {
+    width: 90%;
+    height: 50px;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .nav-btn {
+    background: green;
+    color: white;
+  }
+}
