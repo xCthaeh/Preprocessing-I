@@ -176,14 +176,6 @@ header {
     align-items: center;
   }
 }
-header h1 {
-  font-size: 2rem;
-}
-@media (max-width: 515px) {
-  header h1 {
-    margin-bottom: 20px;
-  }
-}
 header nav {
   margin-left: 62px;
 }
@@ -199,6 +191,14 @@ header nav a {
 .intro {
   display: flex;
   justify-content: center;
+}
+.intro h1 {
+  font-size: 15rem;
+}
+@media (max-width: 515px) {
+  .intro h1 {
+    margin-bottom: 20px;
+  }
 }
 .main-content {
   display: flex;
