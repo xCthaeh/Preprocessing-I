@@ -246,6 +246,7 @@ strong {
 .main-content h2 {
   display: flex;
   justify-content: center;
+  font-family: 'Charm', cursive;
 }
 .nav-btn {
   background-color: green;
