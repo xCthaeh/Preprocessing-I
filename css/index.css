@@ -170,7 +170,7 @@ header {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -179,7 +179,7 @@ header {
 header nav {
   margin-left: 62px;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   header nav {
     margin-left: 0;
   }
@@ -197,7 +197,7 @@ header nav a {
   color: white;
   text-shadow: 8px 4px limegreen;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   .box-content h1 {
     margin-bottom: 20px;
   }
@@ -211,7 +211,7 @@ strong {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   .main-content {
     flex-direction: column;
   }
@@ -222,6 +222,8 @@ strong {
   background-color: #DCDCDC;
   margin: 20px 2.5%;
   width: 100%;
+  padding-top: 10px;
+  font-size: 2.5rem;
 }
 .main-content .skills {
   border: 1px solid black;
@@ -229,6 +231,8 @@ strong {
   background-color: #DCDCDC;
   margin: 20px 2.5%;
   width: 100%;
+  padding-top: 10px;
+  font-size: 2.5rem;
 }
 .main-content .about-me {
   border: 1px solid black;
@@ -236,6 +240,12 @@ strong {
   background-color: #DCDCDC;
   margin: 20px 2.5%;
   width: 100%;
+  padding-top: 10px;
+  font-size: 2.5rem;
+}
+.main-content h2 {
+  display: flex;
+  justify-content: center;
 }
 .nav-btn {
   background-color: green;
@@ -252,7 +262,7 @@ strong {
 .nav-btn:hover {
   opacity: 1;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   width: 90%;
   height: 50px;
   font-size: 2.5rem;

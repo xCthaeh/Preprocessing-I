@@ -58,7 +58,7 @@ html, body {
 	height:100%;
 }
 // variables
-
+@gray: #DCDCDC;
 @padding: 15px;
 
 // Mixins
@@ -109,7 +109,7 @@ html, body {
 	display: flex;
 	justify-content: center;
   
-	@media( max-width: 515px ) {
+	@media( max-width: 500px ) {
 	  flex-direction: column;
 	  align-items: center;
 	}
@@ -118,7 +118,7 @@ html, body {
 	nav {
 	  margin-left: 62px;
 	  
-	  @media( max-width: 515px ) {
+	  @media( max-width: 500px ) {
 		margin-left: 0;
 	  }
 	  
@@ -136,7 +136,7 @@ html, body {
 	font-size: 15rem;
 	color:white;
 	text-shadow: 8px 4px limegreen;
-		@media( max-width: 515px ) {
+		@media( max-width: 500px ) {
 		  margin-bottom: 20px;
 		}
 	  }
@@ -151,32 +151,42 @@ strong {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	
-	@media( max-width: 515px ) {
+	@media( max-width: 500px ) {
 	  flex-direction: column;
-
+		
 	} 
 	.experience{
 		  border:1px solid black;
 		  border-radius: 5px;
-		  background-color:#DCDCDC;
+		  background-color:@gray;
 		  margin: 20px 2.5%;
-    	  width: 100%;
+			width: 100%;
+			padding-top: 10px;
+			font-size: 2.5rem;
 	  }
 	  .skills{
 		  border:1px solid black;
 		  border-radius: 5px;
-		  background-color:#DCDCDC;
+		  background-color:@gray;
 		  margin: 20px 2.5%;
-          width: 100%;
+			width: 100%;
+			padding-top: 10px;
+			font-size: 2.5rem;
 	  }
 	  .about-me{
 		border:1px solid black;
 		border-radius: 5px;
-		background-color:#DCDCDC;
+		background-color:@gray;
 		margin: 20px 2.5%;
 		width: 100%;
+		padding-top: 10px;
+		font-size: 2.5rem;
+
 	}
+		h2 {
+			display:flex;
+			justify-content: center;
+		}
   }
   
 	 
@@ -196,7 +206,7 @@ strong {
 
   .nav-btn:hover {opacity: 1}
 
-	@media( max-width: 515px ) {
+	@media( max-width: 500px ) {
 	  width: 90%;
 	  height: 50px;
 	  font-size: 2.5rem;
