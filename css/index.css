@@ -176,9 +176,6 @@ header {
     align-items: center;
   }
 }
-header nav {
-  margin-left: 62px;
-}
 @media (max-width: 500px) {
   header nav {
     margin-left: 0;
